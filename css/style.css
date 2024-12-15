@@ -1,0 +1,57 @@
+
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(215, 213, 213);
+   }
+   /* Class Selectors */
+   .header {
+    background-color: #040556;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+   }
+   .nav-list{
+    display: flex;             /* ใช้ flexbox เพื่อจัดการ layout */
+    justify-content: center;   
+   }
+   /* เปลี่ยนรูปแบบของเมนู */
+   .nav-list li {
+    display: inline;
+    margin-right: 1rem;
+    }
+    /*เปลี่ยนสีเมนู*/
+    .nav-list a {
+        color: aliceblue; 
+    }
+    /*เปลี่ยนสีเมนูเมื่อเอาเมาส์ชี้*/
+    .nav-list a:hover {
+        color: #ff6600; 
+    }
+    /*ตั้งค่ารูปภาพ*/
+   .image-center {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+   }
+   /*ปรับ h1*/
+   h1 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 5rem;
+    text-align: center;
+    }
+   /*ปรับตัว h2*/
+   h2 {
+    margin-bottom: 1rem;
+    color: #030303;
+    font-size: 1.9rem;
+    text-align: center;
+    }
+    /*จัดตัวของcontent box ให้ตรงกลาง*/
+    .content-box1 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+    }
