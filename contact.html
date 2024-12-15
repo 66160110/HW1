@@ -23,7 +23,23 @@
 
  <main>
  <section id="about" class="section">
-    
+    <h2>ฟอร์มติดต่อสอบถาม</h2>
+    <form action="/submit" method="POST" role="form" aria-label="แบบฟอร์มติดต่อ">
+        <div class="form-group">
+         <label for="fullname">ชื่อ-นามสกุล *</label>
+         <input
+         type="text"
+         id="fullname"
+         name="fullname"
+         required
+         aria-required="true"
+         minlength="2"
+         maxlength="100"
+         aria-describedby="fullname-help">
+         <small id="fullname-help">กรุณากรอกชื่อและนามสกุลจริง</small>
+        </div>
+        
+         </form>
 </article>
 </body>
 </html>
