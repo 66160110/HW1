@@ -20,7 +20,14 @@ body {
     display: inline;
     margin-right: 1rem;
     }
-    
+    /*เปลี่ยนสีเมนู*/
+    .nav-list a {
+        color: aliceblue; 
+    }
+    /*เปลี่ยนสีเมนูเมื่อเอาเมาส์ชี้*/
+    .nav-list a:hover {
+        color: #ff6600; 
+    }
     /*ตั้งค่ารูปภาพ*/
    .image-center {
     display: block;
