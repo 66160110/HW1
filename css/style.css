@@ -61,4 +61,8 @@ body {
         margin: 0 auto;
         text-align: center;
         }
+    /*เพิ่ม h3*/
+    h3 {
+        text-align: center;
+    }
         
