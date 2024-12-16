@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap');
 body {
     margin: 0 auto;
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: rgb(215, 213, 213);
+    background-color: rgb(246, 241, 231);
+    
 
    }
    /* Class Selectors */
@@ -11,6 +12,9 @@ body {
     background-color: #040556;
     color: rgb(255, 255, 255);
     padding: 1rem;
+    background-image: url(https://roijang.com/wp-content/uploads/2022/12/vespaFoto-Shutterstock.com_.jpg);
+    background-size: cover;
+    
    }
    .nav-list{
     display: flex;             /* ใช้ flexbox เพื่อจัดการ layout */
@@ -35,6 +39,7 @@ body {
     margin: 0 auto; /*กำหนดระยะห่างกับด่านล่างและบน *top+bottom = ตัวนี้ */
     max-width: 100%;
     height: auto;
+    margin-bottom: 1.8rem;
    }
    /*ปรับ h1*/
    h1 {
@@ -42,29 +47,43 @@ body {
     color: #ffffff;
     font-size: 5rem;
     text-align: center;
+    font-family: 'Mali', sans-serif;
+    font-family: 'Mali', sans-serif;
     }
    /*ปรับตัว h2*/
    h2 {
     margin-bottom: 1rem;
     color: #030303;
-    font-size: 1.9rem;
+    font-size: 3rem;
     text-align: center;
+    font-family: 'Mali', sans-serif;
     }
     /*จัดตัวของcontent box ให้ตรงกลาง*/
     .content-box1 {
     margin: 0 auto;
-    text-align: center;
+    margin-top: 1rem;
+    text-align: left;
     max-width: 700px;
+    font-size: 1.45rem;
+    font-family: 'Mali', sans-serif;
+    text-indent: 2em;
+    
     }
     /*เพิ่มรูปเเบบ form*/
     .form-group{
         display: block;
-        margin: 0 auto;
+        margin: 1rem;
         text-align: center;
+        font-family: 'Mali', sans-serif;
         }
     /*เพิ่ม h3*/
     h3 {
-        text-align: center;
+        margin-top: 1rem;
+        margin: 0 auto;
+        text-align: left;
+        font-family: 'Mali', sans-serif;
+        max-width: 700px;
+        font-size: 1.45rem;
     }
 
     .create_by{
@@ -72,8 +91,7 @@ body {
     }
     
     .body_see{
-        background-image: url(https://f.ptcdn.info/545/013/000/1387506627-DSC1905-o.jpg);
-        background-size: cover;
+        
     }
 
     /*query ทส*/
