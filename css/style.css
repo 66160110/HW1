@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     background-color: rgb(215, 213, 213);
+
    }
    /* Class Selectors */
    .header {
@@ -31,13 +32,13 @@ body {
     /*ตั้งค่ารูปภาพให้ตรงกลาง*/
    .image-center {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; /*กำหนดระยะห่างกับด่านล่างและบน *top+bottom = ตัวนี้ */
     max-width: 100%;
     height: auto;
    }
    /*ปรับ h1*/
    h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /*กำหนดระยะห่างกับด่านล่าง*/
     color: #ffffff;
     font-size: 5rem;
     text-align: center;
@@ -69,11 +70,20 @@ body {
     .create_by{
         font-size: 11px;
     }
+    
+    .body_see{
+        background-image: url(https://f.ptcdn.info/545/013/000/1387506627-DSC1905-o.jpg);
+
+    }
 
     /*query ทส*/
     @media(max-width: 768px){
         .content-box1{
+        max-width: 360px; /*จำกัดว่าให้บรรทัดกว้างแค่ไหน*/
+        margin-top: 1rem; /*กำหนดระยะห่างกับด่านบน*/
+        margin-bottom: 1rem;
         font-size: 12px;
+        
         }
 
         .header h1{
@@ -94,6 +104,7 @@ body {
         }
         .form-group{
             font-size: 13.5px;
+            margin: 1rem;
         }
     }
         
