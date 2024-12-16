@@ -27,11 +27,12 @@ body {
     }
     /*เปลี่ยนสีเมนู*/
     .nav-list a {
-        color: aliceblue; 
+        color: rgb(0, 0, 0); 
+        font-family: 'Mali', sans-serif;
     }
     /*เปลี่ยนสีเมนูเมื่อเอาเมาส์ชี้*/
     .nav-list a:hover {
-        color: #ff6600; 
+        color: #c0794a; 
     }
     /*ตั้งค่ารูปภาพให้ตรงกลาง*/
    .image-center {
@@ -47,7 +48,6 @@ body {
     color: #ffffff;
     font-size: 5rem;
     text-align: center;
-    font-family: 'Mali', sans-serif;
     font-family: 'Mali', sans-serif;
     }
    /*ปรับตัว h2*/
