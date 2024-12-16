@@ -97,22 +97,26 @@ body {
         .content-box1{
         max-width: 360px; /*จำกัดว่าให้บรรทัดกว้างแค่ไหน*/
         margin-top: 1rem; /*กำหนดระยะห่างกับด่านบน*/
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
         font-size: 12px;
         
         }
-
+        .header{
+            background-image: url(https://www.rayong-pao.go.th/web/images/photo_content/I0006387.jpg?2014);
+        }
         .header h1{
             font-size: 2rem;
+            color: rgb(0, 0, 0);
         }
         .nav-list {
             align-items: center;
-            font-size: 14px;
+            font-size: 16px;
         }
         h2{
             font-size: 1.5rem;
         }
         h3{
+            max-width: 360px;
             font-size: 1rem;
         }
         .create_by{
@@ -122,9 +126,8 @@ body {
             font-size: 13.5px;
             margin: 1rem;
         }
-        .body_see{
-            background-image: url(https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/fa72bf3507254961b1a369790079c90e~tplv-tej9nj120t-origin.webp);
-            background-size: 50rem;
+        .image-center{
+            max-width: 360px;
         }
     }
         
