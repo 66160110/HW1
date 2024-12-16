@@ -28,7 +28,7 @@ body {
     .nav-list a:hover {
         color: #ff6600; 
     }
-    /*ตั้งค่ารูปภาพ*/
+    /*ตั้งค่ารูปภาพให้ตรงกลาง*/
    .image-center {
     display: block;
     margin: 0 auto;
@@ -64,5 +64,14 @@ body {
     /*เพิ่ม h3*/
     h3 {
         text-align: center;
+    }
+
+    /*query ทส*/
+    @media(max-width: 768px){
+        .content-box1{
+        font-size: 14px;
+        }
+
+
     }
         
