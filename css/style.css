@@ -73,7 +73,7 @@ body {
     /*query ทส*/
     @media(max-width: 768px){
         .content-box1{
-        font-size: 13px;
+        font-size: 12px;
         }
 
         .header h1{
@@ -82,6 +82,9 @@ body {
         .nav-list {
             align-items: center;
             font-size: 14px;
+        }
+        .create_by{
+            font-size:  9px;
         }
     }
         
