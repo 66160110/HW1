@@ -89,6 +89,7 @@ body {
 
     .create_by{
         font-size: 11px;
+        margin-top: 2rem;
     }
     .burger{
         display: none;
