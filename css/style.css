@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     background-color: rgb(246, 241, 231);
+
     
 
    }
@@ -12,8 +13,9 @@ body {
     background-color: #040556;
     color: rgb(255, 255, 255);
     padding: 1rem;
-    background-image: url(https://roijang.com/wp-content/uploads/2022/12/vespaFoto-Shutterstock.com_.jpg);
+    background-image: url("https://wallpapers.com/images/featured/cloud-background-5tml9jobu406ove8.jpg");
     background-size: cover;
+    
     
    }
    .nav-list{
@@ -24,6 +26,7 @@ body {
    .nav-list li {
     display: inline;
     margin-right: 1rem;
+    font-weight: 900;
     }
     /*เปลี่ยนสีเมนู*/
     .nav-list a {
@@ -48,7 +51,7 @@ body {
    /*ปรับ h1*/
    h1 {
     margin-bottom: 1rem; /*กำหนดระยะห่างกับด่านล่าง*/
-    color: #ffffff;
+    color: #000000;
     font-size: 5rem;
     text-align: center;
     font-family: 'Mali', sans-serif;
@@ -140,6 +143,7 @@ body {
         }
         .image-center{
             max-width: 320px;
+            padding: 10px;
         }
     }
         
